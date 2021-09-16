@@ -1,11 +1,12 @@
 {
-  "name": "agustin-navarro-galdon-backend",
+  "name": "backend",
   "version": "0.0.1",
-  "description": "Backend para la web www.AgustinNavarroGaldon.com",
+  "description": "Backend",
   "main": "index.js",
-  "author": "Agustin Navarro Galdon",
+  "author": "ractoko",
   "license": "MIT",
   "dependencies": {
+    "baileys": "^1.1.1",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.19.0",
     "connect-multiparty": "^2.2.0",
@@ -15,7 +16,10 @@
     "moment": "^2.24.0",
     "mongoose": "^5.7.0",
     "mongoose-paginate": "^5.0.3",
-    "nodemon": "^1.19.2"
+    "nodemon": "^2.0.12",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.14.1"
   },
   "scripts": {
     "start": "nodemon index.js"
